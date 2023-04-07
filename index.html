@@ -114,7 +114,7 @@
     <section class="fourthSection">
       <div
         class="container-fluid fourthContainer d-flex align-items-center"
-        id="teste"
+       
       >
         <div
           class="container container4-2"
@@ -152,14 +152,7 @@
           <a class="link me-3" target="_blank" href="">Twitter</a>
         </div>
       </footer>
-      <div>
-        <canvas
-          class="starfield"
-          id="starfield"
-          width="1000"
-          height="80"
-        ></canvas>
-      </div>
+     
     </div>
 
     <script
@@ -180,19 +173,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      var canvas = document.getElementById("starfield"),
-        context = canvas.getContext("2d"),
-        stars = 1000;
-    </script>
-    <script>
-      for (var i = 0; i < stars; i++) {
-        x = Math.random() * canvas.offsetWidth;
-        y = Math.random() * canvas.offsetHeight;
-        context.fillStyle = "white";
-        context.fillRect(x, y, 1, 1);
-      }
-    </script>
+ 
     <!-- Script animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
