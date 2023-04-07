@@ -191,14 +191,7 @@ class="container-fluid seventhHumanSection d-flex "
           <a class="link me-3" target="_blank" href="">Twitter</a>
         </div>
 </footer>
-<div>
-  <canvas
-    class="starfield"
-    id="starfield"
-    width="1000"
-    height="80"
-  ></canvas>
-</div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -206,19 +199,7 @@ class="container-fluid seventhHumanSection d-flex "
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script>
-  var canvas = document.getElementById("starfield"),
-    context = canvas.getContext("2d"),
-    stars = 1000;
-</script>
-<script>
-  for (var i = 0; i < stars; i++) {
-    x = Math.random() * canvas.offsetWidth;
-    y = Math.random() * canvas.offsetHeight;
-    context.fillStyle = "white";
-    context.fillRect(x, y, 1, 1);
-  }
-</script>
+
 
     
     </script>
