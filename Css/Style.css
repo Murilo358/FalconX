@@ -38,13 +38,7 @@
   background-image: url(../Images/home/04.jpg);
 }
 
-.starfield {
-  height: 90px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 
 @media (max-width: 420px) {
   footer {
@@ -363,7 +357,7 @@
 }
 
 @media (max-width: 1270px) {
-  .carousel-content {
+ .carousel-content {
     left: 30vh;
   }
   .carousel-content p {
@@ -401,6 +395,7 @@
     font-size: 10px;
   }
 }
+
 @media (max-width: 950px) {
   .thirdFalconContainer {
     font-size: 18px;
@@ -435,7 +430,7 @@
   }
 }
 @media (max-width: 810px) {
-  .firstFalconContainer h1 {
+.firstFalconContainer h1 {
     font-size: 70px;
   }
   .firstFalconContainer h5 {
@@ -474,7 +469,7 @@
   }
 }
 @media (max-width: 680px) {
-  .carousel-content {
+ .carousel-content {
     left: 15vh;
     top: 5vh;
   }
@@ -490,7 +485,7 @@
   .carousel-content tr {
     font-size: 5px;
   }
-    .secondFalconContainer h1 {
+  .secondFalconContainer h1 {
     font-size: 25px;
   }
   .secondFalconContainer h3 {
@@ -498,7 +493,7 @@
   }
 }
 @media (max-width: 536px) {
-  .firstFalconSection h1 {
+   .firstFalconSection h1 {
     font-size: 60px;
   }
   .firstFalconSection h5 {
@@ -527,7 +522,7 @@
   .carousel-content tr {
     font-size: 3px;
   }
-    .secondFalconContainer {
+  .secondFalconContainer {
     column-gap: 2px;
   }
   .secondFalconContainer h1 {
@@ -538,7 +533,7 @@
   }
 }
 @media (max-width: 390px) {
-  .paragraphThirdFalconContainer {
+   .paragraphThirdFalconContainer {
     width: 100%;
     font-size: 13px;
   }
