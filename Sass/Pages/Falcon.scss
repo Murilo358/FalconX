@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.firstFalconSection {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url(../../Images/falcon9/01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.endButtons {
+  button {
+    margin-right: 25px;
+  }
+}
+.container-falcon1-2 {
+  min-height: 90vh;
+  color: white;
+  h1 {
+    font-size: 100px;
+  }
+}
+
+.secondFalconContainer {
+  min-height: 30vh;
+  background-color: black;
+  color: white;
+}
+
+.thirdFalconSection {
+  min-height: 100vh;
+  background-image: url(../../Images/falcon9/02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.thirdFalconContainer {
+  color: white;
+  font-size: 25px;
+}
+.paragraph-falcon3-1 {
+  width: 50%;
+}
+.container-falcon4 {
+  height: 100vh;
+}
+.carousel-content {
+  position: absolute;
+  width: 30%;
+  top: 20vh;
+  left: 35vh;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  tr {
+    color: white;
+  }
+}
+
+.fifthFalconSection {
+  min-height: 100vh;
+  background-image: url(../../Images/falcon9/08.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fifthFalconContainer {
+  color: white;
+
+  table {
+    color: white;
+  }
+}
+.content-falcon5 {
+  width: 40%;
+}
+.carousel-falcon2 {
+  img {
+    height: 90vh;
+  }
+}
+
+.SixthFalconSection {
+  position: relative;
+  color: rgb(118, 118, 118);
+  background: radial-gradient(ellipse at bottom, #000d25, rgb(0, 0, 0));
+  background-color: black;
+  min-height: 90vh;
+}
+
+@media (max-width: 1270px) {
+  .carousel-content {
+    left: 30vh;
+    p {
+      font-size: 12px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    tr {
+      font-size: 10px;
+    }
+  }
+  .container-falcon3-1 {
+    font-size: 20px;
+    width: 80%;
+  }
+  .container-falcon2 {
+    h3 {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .container-falcon5 {
+    h5 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 15px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    tr {
+      font-size: 10px;
+    }
+  }
+}
+@media (max-width: 950px) {
+  .thirdFalconContainer {
+    font-size: 18px;
+  }
+  .carousel-content {
+    left: 30vh;
+    top: 15vh;
+    p {
+      font-size: 10px;
+    }
+    h5 {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    tr {
+      font-size: 8px;
+    }
+  }
+  .fifthFalconSection {
+    h5 {
+      font-size: 13px;
+    }
+    p {
+      font-size: 13px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    tr {
+      font-size: 8px;
+    }
+  }
+}
+@media (max-width: 810px) {
+  .firstFalconContainer {
+    h1 {
+      font-size: 70px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+  }
+  .secondFalconSection {
+    h3 {
+      font-size: 11px;
+    }
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .thirdFalconContainer {
+    font-size: 14px;
+  }
+  .content-falcon5 {
+    width: 50%;
+  }
+
+  .carousel-content {
+    left: 23vh;
+    top: 10vh;
+    p {
+      font-size: 8px;
+    }
+    h5 {
+      font-size: 10px;
+    }
+    h2 {
+      font-size: 19px;
+    }
+    tr {
+      font-size: 7px;
+    }
+  }
+  .btn-end {
+    width: 175px;
+  }
+}
+@media (max-width: 680px) {
+  .carousel-content {
+    left: 15vh;
+    top: 5vh;
+    p {
+      font-size: 7px;
+    }
+    h5 {
+      font-size: 8px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    tr {
+      font-size: 5px;
+    }
+  }
+}
+@media (max-width: 536px) {
+  .firstFalconSection {
+    h1 {
+      font-size: 60px;
+    }
+    h5 {
+      font-size: 20px;
+    }
+  }
+  .paragraphThirdFalconContainer {
+    width: 70%;
+  }
+  .endButtons {
+    margin-right: 0px;
+  }
+
+  .carousel-content {
+    width: 40%;
+    left: 12vh;
+    top: 3vh;
+    p {
+      font-size: 5px;
+    }
+    h5 {
+      font-size: 6px;
+    }
+    h2 {
+      font-size: 13px;
+    }
+    tr {
+      font-size: 3px;
+    }
+  }
+}
+@media (max-width: 390px) {
+  .paragraphThirdFalconContainer {
+    width: 100%;
+    font-size: 13px;
+  }
+  .content-falcon5 {
+    width: 70%;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .carousel-content {
+    width: 50%;
+    height: 100%;
+    left: 12vh;
+    top: 0;
+    p {
+      font-size: 5px;
+    }
+    h5 {
+      font-size: 6px;
+    }
+    h2 {
+      font-size: 10px;
+    }
+
+    tr {
+      line-height: 0px;
+      font-size: 5px;
+    }
+  }
+  .firstFalconContainer {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}

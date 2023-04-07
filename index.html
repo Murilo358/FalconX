@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto final</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Link do css -->
+    <link rel="stylesheet" href="Css/Style.css" />
+    <!-- Animation Lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- link do favicon -->
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="container-fluid firstSection">
+      <div class="container firstContainer pt-4">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="/index.html" class="me-5 link">
+              <img
+                class="logo-one-bit"
+                src="/Images/logo-obc-2021-darkbg.png"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a href="/Falcon9.html" class="me-2 link">FALCON 9</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/Human-Flight.html" class="link"
+                    >HUMAN SPACE FLIGHT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <div data-aos="fade-up" data-aos-duration="2000" class="titles">
+          <h5>LANÇAMENTO A CAMINHO</h5>
+          <h1>MISSÃO EQUIPE-3</h1>
+          <button type="button" class="btn mt-5 btn-outline-light">
+            SAIBA MAIS!
+          </button>
+        </div>
+        <div class="pt-4 d-flex justify-content-center">
+          <button
+            class="btnarrow"
+            onClick="document.getElementById('secondOne').scrollIntoView();"
+          >
+            <img class="ArrowDown" src="./Images/home/arrowDown.gif" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container-fluid secondSection d-flex align-items-center"
+      id="secondOne"
+    >
+      <div
+        class="container secondContainer"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      >
+        <h5>MISSÃO CONCLUIDA</h5>
+        <h1>MISSÃO EQUIPE-2</h1>
+        <h1>RETORNOU PARA A TERRA</h1>
+        <button type="button" class="btn mt-5 btn-outline-light">
+          SAIBA MAIS!
+        </button>
+      </div>
+    </section>
+    <section class="thirdSection">
+      <div
+        class="container-fluid thirdContainer d-flex align-items-center"
+        id="teste"
+      >
+        <div
+          class="container container3-2"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <h5>MISSÃO CONCLUIDA</h5>
+          <h1>
+            DRAGON RETORNOU PARA <br />
+            A TERRA
+          </h1>
+          <button type="button" class="btn mt-5 btn-outline-light">
+            SAIBA MAIS!
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="fourthSection">
+      <div
+        class="container-fluid fourthContainer d-flex align-items-center"
+        id="teste"
+      >
+        <div
+          class="container container4-2"
+          data-aos="fade-down-right"
+          data-aos-duration="2000"
+        >
+          <h1>
+            STARSHIP POUSA ASTRONAUTAS <br />
+            DA NASA NA LUA
+          </h1>
+          <button type="button" class="btn mt-5 btn-outline-light">
+            SAIBA MAIS!
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="d-flex align-items-center justify-content-center footer container-fluid"
+    >
+      <footer class="d-flex flex-wrap">
+        <div>
+          <p class="me-3">OneBitCode © 2023</p>
+        </div>
+
+        <div>
+          <a class="link me-3" target="_blank" href="">Instragram</a>
+          <a
+            class="link me-3"
+            target="_blank"
+            href="
+          "
+            >Youtube</a
+          >
+          <a class="link me-3" target="_blank" href="">Twitter</a>
+        </div>
+      </footer>
+      <div>
+        <canvas
+          class="starfield"
+          id="starfield"
+          width="1000"
+          height="80"
+        ></canvas>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var canvas = document.getElementById("starfield"),
+        context = canvas.getContext("2d"),
+        stars = 1000;
+    </script>
+    <script>
+      for (var i = 0; i < stars; i++) {
+        x = Math.random() * canvas.offsetWidth;
+        y = Math.random() * canvas.offsetHeight;
+        context.fillStyle = "white";
+        context.fillRect(x, y, 1, 1);
+      }
+    </script>
+    <!-- Script animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

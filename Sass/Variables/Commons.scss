@@ -1,0 +1,33 @@
+.logo-one-bit {
+  width: 240px;
+}
+.link {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.btn {
+  width: 160px;
+  height: 60px;
+  border: 2px solid white;
+}
+.ArrowDown {
+  width: 100px;
+}
+.btnarrow {
+  background-color: transparent;
+  border: none;
+}
+.footer {
+  position: relative;
+  color: rgb(118, 118, 118);
+  background: radial-gradient(ellipse at top, #002e89, rgb(1, 5, 37));
+  height: 100px;
+  z-index: 10;
+  a {
+    font-size: 15px;
+  }
+  p {
+    color: #555252;
+  }
+}

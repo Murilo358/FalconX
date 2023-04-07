@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.firstHumanSection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url(../../Images/humanFlight/01.jpg);
+}
+.container-human1-2 {
+  width: 100%;
+  min-height: 90vh;
+  color: white;
+  h1 {
+    font-size: 120px;
+  }
+}
+.ArrowDownHuman {
+  width: 150px;
+}
+.secondHumanSection {
+  background-color: black;
+  color: #b9b9b9;
+  font-size: 22px;
+}
+.thirdHumanSection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url(../../Images/humanFlight/02.jpg);
+}
+
+.thirdHumanContainer {
+  color: white;
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.fourthHumanSection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url(../../Images/humanFlight/03.jpg);
+}
+.fourthHumanContainer {
+  margin-left: 30px;
+  color: white;
+  h1 {
+    font-size: 60px;
+  }
+}
+.endButtons {
+  margin-right: 30px;
+}
+.fifthHumanSection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url(../../Images/humanFlight/04.jpg);
+}
+.fifthHumanContainer {
+  color: white;
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.sixthHumanSection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-image: url(../../Images/humanFlight/05.jpg);
+}
+.sixthHumanContainer {
+  margin-left: 30px;
+  color: white;
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.seventhHumanSection {
+  width: 100%;
+  position: relative;
+  color: rgb(118, 118, 118);
+  background: radial-gradient(ellipse at bottom, #000d25, rgb(0, 0, 0));
+  background-color: black;
+  min-height: 90vh;
+}
+.seventhHumanContainer {
+  color: white;
+}
+.btn-end {
+  width: 230px;
+}
+
+@media (max-width: 790px) {
+  .container-human1-2 {
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width: 470px) {
+  h5 {
+    font-size: 20px;
+  }
+  .sixthHumanContainer {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  .fifthHumanContainer {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  .container-human4-1 {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  .thirdHumanContainer {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  .endButtons {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 420px) {
+  .secondHumanContainer {
+    padding: 0px;
+  }
+  .container-human1-2 {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
