@@ -490,6 +490,12 @@
   .carousel-content tr {
     font-size: 5px;
   }
+    .secondFalconContainer h1 {
+    font-size: 25px;
+  }
+  .secondFalconContainer h3 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 536px) {
   .firstFalconSection h1 {
@@ -520,6 +526,15 @@
   }
   .carousel-content tr {
     font-size: 3px;
+  }
+    .secondFalconContainer {
+    column-gap: 2px;
+  }
+  .secondFalconContainer h1 {
+    font-size: 25px;
+  }
+  .secondFalconContainer h3 {
+    font-size: 12px;
   }
 }
 @media (max-width: 390px) {
